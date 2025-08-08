@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+valor_produto= parseFloat (prompt("informe valor produto: "));
+if (valor_produto <50){
+    alert ("valor sem desconto!!")
+}else if ((valor_produto===50 ||valor_produto >50)  && valor_produto <100){
+
+ valor_produto= valor_produto *0.9
+ alert (`o valor com desconto de 10% é igual a: ${valor_produto}`);
+}else{
+    valor_produto= valor_produto*0.8
+    alert (` o valor com desconto de 20% é igual: ${valor_produto}`)
+}
+    </script>
+</body>
+</html>
